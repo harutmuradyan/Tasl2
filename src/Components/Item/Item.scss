@@ -1,0 +1,30 @@
+.item {
+    flex-basis: 10%;
+    height: 250px;
+    background-color:orange;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    .item-id {
+        color: white;
+        text-align: center;
+        font-size: 1vw;
+        margin-top: 20px;
+    }
+
+    .item-title {
+        margin-top: 40px;
+        font-size: 1vw;
+        text-align: center;
+        color: white;
+    }
+
+    .item-img {
+        display: flex;
+        justify-content: center;
+        flex-basis: 80%;
+       img { 
+            width: 120px;
+            height: 120px;
+       }
+    }
+}

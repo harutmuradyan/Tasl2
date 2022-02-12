@@ -1,0 +1,20 @@
+.footer {
+    max-width: 1440px;
+    background-color:orange;
+    height: 80px;
+    display: flex;
+    .footer-logo {
+        flex-basis: 20%;
+        margin-top: 20px;
+        margin-left: 20px;
+        .footer-logo__title {
+            color: white;
+            border-bottom: solid 2px white;
+            text-align: center;
+            font-size: 2vw;
+            span {
+                color: black;
+            }
+        }
+    }
+}
